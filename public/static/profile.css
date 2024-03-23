@@ -1,0 +1,145 @@
+body{
+    font-family:  'Poppins', sans-serif;
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(82, 82, 230);
+}
+.nav ul {
+    display: flex;
+}
+
+.nav ul li{
+    padding: 10px;
+    list-style: none;
+}
+.nav ul li a{
+    
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.nav ul li a:hover{
+    
+    color: black;
+}
+
+/* .pop{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(145, 145, 193);
+} */
+.intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#element{
+    color: blue;
+}
+ .intro img{
+    height: 350px;
+    width: 350px;
+    
+}
+/*.img img{
+    height: 50px;
+    width: 50px;
+    padding: 10px; 
+
+}*/
+.hi{
+    margin-top: 35px;
+}
+.hi button{
+    margin: 10px;
+}
+
+/* .second  h2{
+   margin-left: 50px;
+}
+.second .box{
+    width: 80vw;
+    height: 1px;
+    background: black;
+    margin-left: 50px;
+} */
+
+.skill{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* background-image: url('images/skill.png'); */
+}
+
+.skill img{
+    height: 400px;
+    width: 400px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.web{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.web img{
+    height: 250px;
+    width: 500px;
+    margin-top: 20px;
+
+}
+
+.dsa{
+    display: flex;
+    flex-direction: row;
+}
+.dsa img{
+    height: 150px;
+    width: 150px;
+    padding: 20px;
+
+}
+hr{
+    border: 1px solid black;
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+.contact input{
+    padding: 10px;
+    margin: 15px;
+}
+.contact button{
+    padding: 5px;
+    margin: 15px;
+    width: 60px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:  rgb(82, 82, 230);
+    height: 100px;
+}
+.img img{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+.footer p{
+    margin-top: 10px;
+}

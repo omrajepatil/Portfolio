@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/profile.css">
+</head>
+<body>
+    <div class="nav">
+        
+        <h2>OMRAJE PATIL</h2>
+        <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact Me</a></li>
+    </ul>
+    </div>
+<div class="pop">
+    <% if(success != '') { %> 
+    <div class="alert alert-primary" role="alert">
+        <strong>Success !</strong><%= success %>
+      </div>
+</div>
+<% } %>
+    <div class="intro">
+        <div class="hi">
+        <h1>Hi all I'm Om 👋</h1>
+        <p>passionate Full Stack Web Developer 🚀 having an <br> Experience of Building Web application with <br> <span id="element"></span></p>
+
+        <a href="#form"><button>CONTACT ME</button></a>
+        <a href="file:///C:/Users/omraj/Downloads/my%20resume.pdf"><button>SEE MY RESUME</button></a>
+    </div>
+
+    
+        <img src="images/bg.jpg" alt="">
+    </div>
+    <hr>
+
+    <div class="skill">
+        <img src="images/skill.png" alt="">
+
+        <div class="web">
+            <img src="images/html.webp" alt="">
+
+            <div class="dsa">
+                <img src="images/c++.webp" alt="">
+                <img src="images/python.png" alt="">
+                <img src="images/java.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <hr>
+
+    <div class="form" id="form">
+
+        <form action="/contact" method="post" class="contact">
+            <h3>CONTACT US</h3>
+            <input type="text" name="name" placeholder="Name" id="name">
+             <input type="email" name="email" id="" placeholder="Email" id="email">
+            <input type="text" name="message" placeholder="Message" id="message">  
+            <button type="submit">Submit</button>
+        </form>
+
+        <img src="images/contact.webp" alt="">
+    </div>
+
+    <hr>
+
+    <div class="footer">
+        <p>Get Connect us on Social Network</p>
+
+        <div class="img">
+        <img src="images/facebook.png" alt="">
+        <img src="images/gmail.png" alt="">
+        <img src="images/insta.png" alt="">
+        <img src="images/twitter.png" alt="">
+
+    </div>
+    </div>
+
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+      strings: ['JavaScript','Reactjs' ,'Nodejs','React Native'],
+      typeSpeed: 100,
+    });
+
+    
+
+
+
+
+  </script>
+</body>
+</html>
