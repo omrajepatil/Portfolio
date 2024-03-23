@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,600&display=swap" rel="stylesheet">
@@ -12,7 +13,7 @@
 <body>
     <div class="nav">
         
-        <h2>OMRAJE PATIL</h2>
+        <h2>OMRAJE</h2>
         <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
@@ -29,17 +30,32 @@
 </div>
 <% } %>
     <div class="intro">
-        <div class="hi">
-        <h1>Hi all I'm Om 👋</h1>
-        <p>passionate Full Stack Web Developer 🚀 having an <br> Experience of Building Web application with <br> <span id="element"></span></p>
+        <div class="hi" data-aos="zoom-out">
+        <h1>👋 Hi all I'm</h1>
+        <h1>OMRAJE PATIL</h1>
+        <p><span id="element"></span></p>
 
         <a href="#form"><button>CONTACT ME</button></a>
-        <a href="file:///C:/Users/omraj/Downloads/my%20resume.pdf"><button>SEE MY RESUME</button></a>
+       
     </div>
 
-    
+    <div data-aos="zoom-out">
         <img src="images/bg.jpg" alt="">
     </div>
+    </div>
+    <hr>
+
+
+    <div class="about">
+        <img src="images/about.png" alt="">
+
+    <div class="text">
+            <h2>ABOUT ME</h2>
+        <p>Hey there! I'm a 3rd year Computer Engineering undergrad, currently exploring the dynamic realms of the MERN Stack! From MongoDB to React, Node.js, every line of code I write fuels my passion for innovation.  Dedicated to crafting scalable solutions and driving meaningful change. Constantly learning and embracing challenges, I'm on a journey to redefine boundaries. <br>🌟LET'S COLLABORATE & THRIVE TOGETHER! 🌟</p>
+        <button><a href="https://drive.google.com/file/d/17nNY5mNy3MlKxtNL9p4ou9FYbmGV9mDy/view?usp=drive_link">Download Resume</a> </button>
+    </div>
+    </div>
+
     <hr>
 
     <div class="skill">
@@ -89,7 +105,9 @@
 
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
+    AOS.init();
     var typed = new Typed('#element', {
       strings: ['JavaScript','Reactjs' ,'Nodejs','React Native'],
       typeSpeed: 100,
