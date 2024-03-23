@@ -140,7 +140,13 @@ body{
 
 }
 hr{
-    border: 1px solid black;
+    border: 1px solid rgb(72, 90, 247);
+}
+
+
+.card img{
+    width: 300px;
+    height: 300px;
 }
 
 .form{
