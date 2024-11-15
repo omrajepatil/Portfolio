@@ -36,7 +36,7 @@ const About = () => {
             Whether it’s creating visually stunning front-end designs or implementing powerful back-end systems, 
             I always strive for excellence and efficiency in every project I work on.
           </p>
-          <a href="https://drive.google.com/file/d/1eT11X_ifCXWJtbmH5Ih705bPXAPqyqp7/view?usp=drive_link">
+          <a href="https://drive.google.com/file/d/1b3SKTSHKXznXgEmUxqg1KEWBDtuCVwL-/view?usp=drive_link">
           <button  className='mt-8 inline-block bg-blue-600 text-white font-bold py-2 px-6 rounded-lg shadow-lg hover:bg-blue-500 transition duration-300'>Resume</button>
           </a>
         </div>
