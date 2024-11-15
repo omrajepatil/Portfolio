@@ -3,18 +3,18 @@ import { useInView } from 'react-intersection-observer';
 import 'animate.css'
 
 const skillsData = [
-  { name: 'HTML', image: '../public/images/html.png' },
-  { name: 'CSS', image: '../public/images/css.png' },
-  { name: 'JavaScript', image: '../public/images/js.png' },
-  { name: 'React', image: '../public/images/react.png' },
-  { name: 'Node.js', image: '../public/images/node.png' },
-  { name: 'Express', image: '../public/images/express.png' },
-  { name: 'Java', image: '../public/images/java.png' },
-  { name: 'Python', image: '../public/images/python.png' },
-  { name: 'SQL', image: '../public/images/sql.png' },
-  { name: 'Git', image: '../public/images/git.png' },
-  { name: 'Mongodb', image: '../public/images/mongo.png' },
-  { name: 'Tailwind', image: '../public/images/tailwind.png' },
+  { name: 'HTML', image: '/images/html.png' },
+  { name: 'CSS', image: '/images/css.png' },
+  { name: 'JavaScript', image: '/images/js.png' },
+  { name: 'React', image: '/images/react.png' },
+  { name: 'Node.js', image: '/images/node.png' },
+  { name: 'Express', image: '/images/express.png' },
+  { name: 'Java', image: '/images/java.png' },
+  { name: 'Python', image: '/images/python.png' },
+  { name: 'SQL', image: '/images/sql.png' },
+  { name: 'Git', image: '/images/git.png' },
+  { name: 'Mongodb', image: '/images/mongo.png' },
+  { name: 'Tailwind', image: '/images/tailwind.png' },
 ];
 
 const Skill = () => {

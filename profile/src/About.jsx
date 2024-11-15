@@ -18,7 +18,7 @@ const About = () => {
         {/* Left Section: Avatar Image */}
         <div ref={about} className={`w-full md:w-1/3 flex justify-center ${aboutImg ? 'animate__animated animate__rubberBand' : ''}`}>
           <img 
-            src="../public/images/self photo.jpg" 
+            src="/images/self photo.jpg" 
             alt="Omraje's Avatar" 
             className=" h-80 w-64 object-cover border-4"
           />

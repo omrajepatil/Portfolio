@@ -74,7 +74,7 @@ const Home = () => {
         {/* Right Section */}
         <div ref={img} className={`w-full md:w-1/2 flex justify-center " data-aos="slide-left ${introImg ? 'animate__animated animate__zoomInDown' : ''}`}>
           <img 
-            src="../public/images/home.png" 
+            src="/images/home.png" 
             alt="Omraje's Photo" 
             className="rounded-full h-96 w-96 object-cover border-4 "
           />

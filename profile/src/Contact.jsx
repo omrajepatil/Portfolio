@@ -57,7 +57,7 @@ function Contact() {
   <div className="bg-white flex flex-col md:flex-row px-5 py-5 mx-4 md:mx-20 my-9 rounded-lg justify-center">
     {/* Responsive Image */}
     <img
-      src="../public/images/connect.png"
+      src="/images/connect.png"
       alt=""
       ref={imgRef}
       className={`w-full md:w-80 h-auto md:h-96 mt-2 mx-auto ${

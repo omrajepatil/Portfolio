@@ -5,37 +5,37 @@ import 'animate.css'
 const projectsData = [
   {
     name: 'Placement Portal',
-    image: '../public/images/tnp.png', // Replace with your project image URL
+    image: '/images/tnp.png', // Replace with your project image URL
     description: 'a Centralized Platform for Streamlining Campus Placement.',
     github: 'https://github.com/yourusername/project-one', // Replace with your GitHub repo link
   },
   {
     name: 'QuickBite ',
-    image: '../public/images/quickbite.png', // Replace with your project image URL
+    image: '/images/quickbite.png', // Replace with your project image URL
     description: 'A brief description of Project Two.',
     github: 'https://github.com/omrajepatil/QuickBite', // Replace with your GitHub repo link
   },
   {
     name: 'QuillQuiest',
-    image: '../public/images/quillquest.png', // Replace with your project image URL
+    image: '/images/quillquest.png', // Replace with your project image URL
     description: 'A brief description of Project Three.',
     github: 'https://github.com/omrajepatil/QuillQuest', // Replace with your GitHub repo link
   },
   {
     name: 'Travetilitius Tour',
-    image: '../public/images/tour.png', // Replace with your project image URL
+    image: '/images/tour.png', // Replace with your project image URL
     description: 'A brief description of Project Four.',
     github: 'https://github.com/yourusername/project-four', // Replace with your GitHub repo link
   },
   {
     name: 'Portfolio',
-    image: '../public/images/portfolio.png', // Replace with your project image URL
+    image: '/images/portfolio.png', // Replace with your project image URL
     description: 'A brief description of Project Five.',
     github: 'https://github.com/omrajepatil/Portfolio', // Replace with your GitHub repo link
   },
   {
     name: 'Techy Software',
-    image: '../public/images/techy.png', // Replace with your project image URL
+    image: '/images/techy.png', // Replace with your project image URL
     description: 'A brief description of Project Six.',
     github: 'https://github.com/omrajepatil/Project2-nexus', // Replace with your GitHub repo link
   },
